@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  width: 358px;
+  background: #CCCCCC;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.menu__item {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+.menu__item:hover,
+.menu__item:active {
+  background-color: #9C9C9C;
+}
